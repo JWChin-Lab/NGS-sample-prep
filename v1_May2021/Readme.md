@@ -1,6 +1,4 @@
-v1: Published alongside W. Robertson et al., Science 372, 2021: 
-
-Sense codon reassignment enables viral resistance and encoded polymer synthesis
+v1: Published alongside W. Robertson et al., Science 372, 2021: Sense codon reassignment enables viral resistance and encoded polymer synthesis
 
 Automated methods were created in Biomek v4.1 (Beckman Coulter) and associated deck layouts and project details and found in '.imp' files. Automation platform possessed onboard thermocycler and platereader; methods for accessing these platforms and automatically running analysis scripts are not included. These methods/screenshots are best utilised as a guide to replicate protocols on other automation platforms. 
 
