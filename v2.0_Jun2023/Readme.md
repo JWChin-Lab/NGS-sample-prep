@@ -3,3 +3,5 @@ v2: Published alongside J. Zurcher et al., Nature 2023: Continuous synthesis of 
 Extended protocols are generally written as pipetting nodes in Biomek and organised by SAMI (pipelining software) to 
 access plate readers/thermocyclers etc. Screenshots of both are included. 
 
+The Biomek FXp automation platform's deck layout and labware descriptions are contained within Biomek_deck.bif, Biomek_project.imp and... 
+
