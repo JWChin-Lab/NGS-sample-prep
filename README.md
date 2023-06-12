@@ -5,4 +5,5 @@ Beckman Coulter automation platform files for automated Illumina Nextera XT libr
 Generally, the most recent version of these files should be viewed/used; older versions are kept for reference. Any enquiries can be directed to kliu@mrc-lmb.cam.ac.uk. 
 
 v2: J. Zurcher et al., Nature 2023
+
 v1: W. Robertson et al., Science 2021
