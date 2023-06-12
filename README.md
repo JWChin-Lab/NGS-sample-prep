@@ -7,4 +7,4 @@ Generally, the most recent version of these files should be viewed/used; older v
 
 v2: J. Zurcher et al., Nature 2023
 
-v1: W. Robertson et al., Science 2021
+v1: W. Robertson et al., Science 372, 2021
