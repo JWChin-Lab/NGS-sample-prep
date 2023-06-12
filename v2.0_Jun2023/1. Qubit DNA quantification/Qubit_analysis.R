@@ -16,6 +16,7 @@ raw <- read.table(file, fill = TRUE, fileEncoding = "UTF-16")
 raw <- raw[-1,-1]
 raw <- raw[1:2,]
 colnames(raw) <- raw[1,]
+
 #1. Plot regression line with calibration (always decreasing C12 to H12)
 calibration <- as.vector(t(as.integer(raw[2,c("A12","B12", "C12", "D12", "E12", "F12", "G12", "H12")])))
 concentrations <- c(10, 5, 5/2, 5/4, 5/8, 5/16, 5/32, 5/64 ) #5 µL of 10 ng/µL into 100 µL, halving dilution series.
