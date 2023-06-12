@@ -25,27 +25,6 @@ test <- calibration*coefficients(cal_line)[2] + coefficients(cal_line)[1]
 summary(cal_line)
 print(test)
 
-#2. Defining wells (unnecessary with new data format)
-#wellnames <- c("A","B","C","D","E","F","G","H")
-
-#wells <- as.data.frame(1)
-#wells$wells <- "A1"
-#colnames(wells) <- c("Sample", "wells")
-
-#Write 1-96 as A1-H12
-#for(i in 2:96){
-#  temp_row <- as.data.frame(i)
-#  letter <- i-8*trunc(i/8)
-#  number <- 1+trunc(i/8)
-#  if (letter !=0){
-#    temp_row$well <- paste(wellnames[letter],number,sep="")
-#  } else {
-#    temp_row$well <- paste("H",number-1, sep="")
-#  }
-#  colnames(temp_row) <- c("Sample", "wells")
-#  wells <- rbind(wells, temp_row)
-#}
-
 #3. Return matrix as a list, and reorder
 samples <- (t(raw))
 reorder <- seq(1,96,12)
