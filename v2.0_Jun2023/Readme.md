@@ -3,5 +3,5 @@ v2: Published alongside J. Zurcher et al., Nature 2023: Continuous synthesis of 
 Extended protocols are generally written as pipetting nodes in Biomek (.bmf) and organised by SAMI (.sproj) to 
 access plate readers/thermocyclers etc. Screenshots of both are included. 
 
-The Biomek FXp automation platform's deck layout and labware descriptions are contained within Biomek_deck.bif, Biomek_project.imp and... 
+The Biomek FXp automation platform's deck layout and labware descriptions are contained within Biomek_deck.bif and Biomek_project.imp. The full automation platform (including plate reader, thermocycler, hotels etc.) is described by Full_automation_layout.spack 
 
